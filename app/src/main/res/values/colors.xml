@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00838F</color>
+    <color name="colorPrimaryDark">#005662</color>
+    <color name="colorAccent">#DA5248</color>
+    <color name="inputSilver">#797272</color>
+    <color name="inputGray">#A9A9A9</color>
+
+    <color name="likeBtnGray">#747474</color>
+    <color name="likeBtnAccent">#DA5248</color>
+
+
+</resources>

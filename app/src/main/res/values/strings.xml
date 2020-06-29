@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyBlogApp</string>
+    <string name="login_text">MYBLOGGER</string>
+    <string name="main_SignIn">Sign In</string>
+    <string name="main_SignUp">Sign Up</string>
+    <string name="login_sample_email">sample@gmail.com</string>
+    <string name="login_password">password</string>
+    <string name="login_loginToAccount">Login To Account</string>
+    <string name="login_createNewAccount">Create a New Account</string>
+    <string name="login_login">Login</string>
+    <string name="register_register">Register</string>
+    <string name="register_create_account">Create Account</string>
+    <string name="user_account_userName">User Name</string>
+    <string name="user_account_password">password</string>
+    <string name="user_account_confirm_password">confirm password</string>
+    <string name="user_account_phoneNumber">phone number</string>
+    <string name="user_account_Save_Settings">Save Account Settings</string>
+    <string name="phone_number">phone number</string>
+    <string name="action_search_text">Search</string>
+    <string name="action_account_settings">Account Settings</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="post_desc_hint">Add Description</string>
+    <string name="new_post_btn">Post Blog</string>
+    <string name="bottom_home">Home</string>
+    <string name="botoom_notification">Notofication</string>
+    <string name="bottom_account">Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="blog_user_name">User Name</string>
+    <string name="blog_post_Date">Blog Date</string>
+    <string name="blog_text_desc">Lorem ipsum dolor sit amet, soluta regione urbanitas vis in, qui elit populo ut.</string>
+</resources>

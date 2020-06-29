@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAccountActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/user_account_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/profile_image"
+        tools:layout_editor_absoluteX="0dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="147dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/default_image"
+        app:civ_border_color="@color/common_google_signin_btn_text_dark_default"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <EditText
+        android:id="@+id/user_account_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="18dp"
+        android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
+        android:hint="@string/user_account_userName"
+        android:inputType="text"
+        android:padding="12sp"
+        android:textColorHint="@color/inputSilver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="o">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/user_account_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:padding="12sp"
+        android:textColorHint="@color/inputSilver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_account_username"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="o">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/save_account_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/button_design_ac1"
+        android:padding="16dp"
+        android:text="@string/user_account_Save_Settings"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+    <ProgressBar
+        android:id="@+id/account_progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/profile_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_account_toolBar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

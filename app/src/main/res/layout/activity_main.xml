@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login_logo"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="@string/login_text"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="35sp">
+    </TextView>
+
+
+    <Button
+        android:id="@+id/main_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="310dp"
+        android:layout_below="@+id/login_logo"
+        android:background="@drawable/button_design_ac"
+        android:padding="16dp"
+        android:textAllCaps="true"
+        android:text="@string/main_SignUp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white">
+    </Button>
+
+    <Button
+        android:id="@+id/main_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/main_signUp"
+        android:background="@drawable/button_design_pd1"
+        android:padding="16dp"
+        android:textAllCaps="true"
+        android:text="@string/main_SignIn"
+        android:textSize="16sp"
+        android:textColor="@android:color/white">
+    </Button>
+
+
+
+    </RelativeLayout>
